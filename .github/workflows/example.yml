@@ -1,0 +1,15 @@
+name: example
+
+on: push
+
+jobs: 
+    name: first_job:
+        runs-on: ubuntu
+        steps: 
+            - name: welcome-script
+              run: echo "my first hello message via ci/cd"
+
+            - name: files
+              run: ls -a
+            
+            
