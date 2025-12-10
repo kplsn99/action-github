@@ -3,7 +3,7 @@ name: example
 on: push
 
 jobs: 
-    name: first_job:
+  first_job:
         runs-on: ubuntu
         steps: 
             - name: welcome-script
