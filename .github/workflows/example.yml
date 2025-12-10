@@ -7,7 +7,7 @@ jobs:
         runs-on: ubuntu:latest
         steps: 
             - name: welcome-script
-              run: echo "my first hello message via ci/cd"
+              run: echo "my first hello message via ci/cd pipeline"
 
             - name: files
               run: ls -a
