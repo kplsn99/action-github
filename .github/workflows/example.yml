@@ -4,7 +4,7 @@ on: push
 
 jobs: 
   first_job:
-        runs-on: ubuntu
+        runs-on: ubuntu:latest
         steps: 
             - name: welcome-script
               run: echo "my first hello message via ci/cd"
